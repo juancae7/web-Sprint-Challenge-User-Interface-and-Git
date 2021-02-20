@@ -31,6 +31,26 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+.navBar a {
+    align-items: stretch;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+  padding: 20px;
+  display: inline-block;
+  
+  color: rgb(12, 1, 1);
+
+  margin-bottom: 20px;
+  }
+
+  .top-content img {
+      margin-top: auto;
+      margin-bottom: 30px;
+  }
+
 ol, ul {
 	list-style: none;
 }
